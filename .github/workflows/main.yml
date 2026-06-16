@@ -25,7 +25,7 @@ jobs:
 
     - name: Build EXE
       run: |
-        pyinstaller --onefile --noconsole --name "DEFCON_TERMINAL" --icon=icon.ico defcon_terminal.py
+        pyinstaller --onefile --noconsole --name "DEFCON_TERMINAL" defcon_terminal.py
       shell: bash
 
     - name: Upload EXE
